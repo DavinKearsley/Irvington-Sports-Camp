@@ -18,3 +18,148 @@
     <p>Welcome to Irvington Sports Camps.</p>
   </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Irvington Sports Camps</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #f0f4f8;
+      color: #333;
+    }
+    header {
+      background-color: #2b5dab;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+    }
+    header img {
+      height: 60px;
+      margin-bottom: 10px;
+    }
+    nav {
+      background-color: #204d8c;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section h2 {
+      color: #2b5dab;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+      max-width: 500px;
+      margin: auto;
+    }
+    .contact-form input,
+    .contact-form textarea {
+      margin-bottom: 15px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+    .contact-form button {
+      background-color: #2b5dab;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+    footer {
+      background-color: #204d8c;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://via.placeholder.com/150x60?text=Irvington+Logo" alt="Irvington Sports Camps Logo" />
+    <h1>Irvington Sports Camps</h1>
+    <p>Building Skills. Creating Memories. Summer Fun Starts Here!</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#sports">Sports</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about" class="section">
+    <h2>About Our Camps</h2>
+    <p>Irvington Sports Camps offers high-energy, skill-building programs for kids and teens of all levels. Whether you're looking to sharpen your game, make new friends, or just have fun in the sun — we've got the right camp for you!</p>
+    <p>Our coaches are experienced, passionate, and committed to creating a supportive environment where every camper thrives.</p>
+  </section>
+
+  <section id="sports" class="section">
+    <h2>Sports We Offer</h2>
+    <ul>
+      <li>⚽ Soccer</li>
+      <li>🏀 Basketball</li>
+      <li>🏐 Volleyball</li>
+      <li>🏈 Flag Football</li>
+      <li>🎾 Tennis</li>
+    </ul>
+  </section>
+
+  <section id="gallery" class="section">
+    <h2>Photo Gallery</h2>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/400x250?text=Soccer+Camp" alt="Soccer Camp" />
+      <img src="https://via.placeholder.com/400x250?text=Basketball+Action" alt="Basketball Action" />
+      <img src="https://via.placeholder.com/400x250?text=Group+Activities" alt="Group Activities" />
+      <img src="https://via.placeholder.com/400x250?text=Fun+in+the+Sun" alt="Fun in the Sun" />
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Irvington Sports Camps. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
